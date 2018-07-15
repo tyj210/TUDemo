@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         let marker = GMSMarker()
         marker.position = CLLocationCoordinate2D(latitude: 36.1520, longitude: -95.9460)
         marker.title = "The University of Tulsa"
-        //marker.snippet = "Oklahoma"
+        marker.snippet = "Oklahoma"
         marker.map = mapView
         
         
