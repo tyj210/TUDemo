@@ -61,6 +61,9 @@
                                 <state key="normal" title="Street View">
                                     <color key="titleColor" red="1" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
+                                <connections>
+                                    <segue destination="BHX-1K-i9f" kind="presentation" id="7HQ-QZ-tKJ"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Iun-S9-G4h">
                                 <rect key="frame" x="16" y="314" width="94" height="39"/>
@@ -262,6 +265,24 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KxA-Xa-dhn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="724.63768115942037" y="891.84782608695662"/>
+        </scene>
+        <!--View Controller2-->
+        <scene sceneID="4ZQ-KA-OAf">
+            <objects>
+                <viewController id="BHX-1K-i9f" customClass="ViewController2" customModule="QRCodeReader" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="5J5-Dv-dtt"/>
+                        <viewControllerLayoutGuide type="bottom" id="ygX-Ua-fhU"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="zhg-yd-ZcZ">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gay-Kc-akX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1386" y="853"/>
         </scene>
         <!--History View-->
         <scene sceneID="VeV-cj-NFs">

@@ -10,6 +10,7 @@
 		49B2C94CFAA9FAE75252DEDD /* Pods_QRCodeReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 919BE5A99484685640D5D164 /* Pods_QRCodeReader.framework */; };
 		842E7F501ED5DA63002A3D82 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842E7F4F1ED5DA63002A3D82 /* HistoryView.swift */; };
 		843FD443204E71EA00D06FA9 /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843FD442204E71EA00D06FA9 /* MapView.swift */; };
+		84FB978020FBDA1700D2F610 /* StreetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84FB977F20FBDA1600D2F610 /* StreetView.swift */; };
 		F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4F09DB61DAF669400026BB2 /* AppDelegate.swift */; };
 		F4F09DBC1DAF669400026BB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBA1DAF669400026BB2 /* Main.storyboard */; };
 		F4F09DBE1DAF669400026BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4F09DBD1DAF669400026BB2 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 		275C41381484F8EF9A088ED7 /* Pods-QRCodeReader.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QRCodeReader.release.xcconfig"; path = "Pods/Target Support Files/Pods-QRCodeReader/Pods-QRCodeReader.release.xcconfig"; sourceTree = "<group>"; };
 		842E7F4F1ED5DA63002A3D82 /* HistoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryView.swift; sourceTree = "<group>"; };
 		843FD442204E71EA00D06FA9 /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		84FB977F20FBDA1600D2F610 /* StreetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreetView.swift; sourceTree = "<group>"; };
 		919BE5A99484685640D5D164 /* Pods_QRCodeReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QRCodeReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F09DB31DAF669400026BB2 /* QRCodeReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4F09DB61DAF669400026BB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				F4F09DCA1DAF6A4F00026BB2 /* QRScannerController.swift */,
 				842E7F4F1ED5DA63002A3D82 /* HistoryView.swift */,
 				843FD442204E71EA00D06FA9 /* MapView.swift */,
+				84FB977F20FBDA1600D2F610 /* StreetView.swift */,
 				F4F09DBF1DAF669400026BB2 /* LaunchScreen.storyboard */,
 				F4F09DC21DAF669400026BB2 /* Info.plist */,
 				F4F09DBD1DAF669400026BB2 /* Assets.xcassets */,
@@ -233,6 +236,7 @@
 				F4F09DC91DAF6A3800026BB2 /* QRCodeViewController.swift in Sources */,
 				842E7F501ED5DA63002A3D82 /* HistoryView.swift in Sources */,
 				843FD443204E71EA00D06FA9 /* MapView.swift in Sources */,
+				84FB978020FBDA1700D2F610 /* StreetView.swift in Sources */,
 				F4F09DB71DAF669400026BB2 /* AppDelegate.swift in Sources */,
 				F4F09DCB1DAF6A4F00026BB2 /* QRScannerController.swift in Sources */,
 			);
